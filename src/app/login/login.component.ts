@@ -20,7 +20,7 @@ export class LoginComponent {
     if (username === 'admin' && password === '123') {
       this.router.navigate(['/home']);
     } else {
-      alert(`Usuário ${username} ou senha ${password} inválido`);
+      alert(`Usuário ou senha inválido`);
     }
   }
 
